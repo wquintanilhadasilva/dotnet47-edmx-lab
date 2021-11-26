@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2dd2f08c5d184c02b00b633d0b956d4f" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="BikeStoresModel.brands" Width="1.5" PointX="1.5" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BikeStoresModel.categories" Width="1.5" PointX="1.5" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BikeStoresModel.customers" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BikeStoresModel.order_items" Width="1.5" PointX="7.5" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="BikeStoresModel.orders" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BikeStoresModel.personsSet" Width="1.5" PointX="12.5" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BikeStoresModel.personsSet_FisicPerson" Width="1.5" PointX="14.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BikeStoresModel.personsSet_juridicpersons" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BikeStoresModel.products" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BikeStoresModel.staffs" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BikeStoresModel.stocks" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BikeStoresModel.stores" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <AssociationConnector Association="BikeStoresModel.FK__products__brand___3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="BikeStoresModel.FK__products__catego__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="BikeStoresModel.FK__orders__customer__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="BikeStoresModel.FK__order_ite__order__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="BikeStoresModel.FK__order_ite__produ__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="BikeStoresModel.FK__orders__staff_id__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="BikeStoresModel.FK__orders__store_id__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="BikeStoresModel.FK__stocks__product___5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="BikeStoresModel.FK__staffs__manager___440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="BikeStoresModel.FK__staffs__store_id__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="BikeStoresModel.FK__stocks__store_id__5070F446" ManuallyRouted="false" />
+        <InheritanceConnector EntityType="BikeStoresModel.personsSet_FisicPerson" />
+        <InheritanceConnector EntityType="BikeStoresModel.personsSet_juridicpersons" />
+        <EntityTypeShape EntityType="BikeStoresModel.pessoa" Width="1.5" PointX="17.25" PointY="2.5" />
+        <EntityTypeShape EntityType="BikeStoresModel.pessoa_fisica" Width="1.5" PointX="19.5" PointY="1.375" />
+        <EntityTypeShape EntityType="BikeStoresModel.pessoa_juridica" Width="1.5" PointX="19.5" PointY="3.75" />
+        <InheritanceConnector EntityType="BikeStoresModel.pessoa_fisica" />
+        <InheritanceConnector EntityType="BikeStoresModel.pessoa_juridica" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
